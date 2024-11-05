@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Liste des salles</title>
+	<link type="text/css" rel="stylesheet"  href="./css/commande.css">
+</head>
+<body>
+	<div id="div_salle_liste_titre"class="divtitre"> Liste des salles </div>
+	<table id="table_salle" >
+		<thead>
+			<tr>
+				<th></th>
+				<th>Numéro de facture</th>
+				<th>Date de facturation</th>
+                <th>N°</th>
+				<th>Nom</th>
+				<th>Commune</th>
+				<th>Montant Total</th>
+				<th>MT (avec remise)</th>
+				<th>Forfait livraison</th>
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+	</table>
+
+	<div class="divaction">
+		<input id="btn_com_ajouter"  type="button"  value="Ajouter" > 
+        <input id="btn_com_modifier" type="button" value="Modifier">
+        <input id="btn_com_supprimer" type="button" value="Supprimer">
+        <input id="btn_com_détail" type="button" value="Détails">
+	</div>
+</body>
+
+<script type="module" src="../controleur/salle_liste.js"></script>
+</html>
